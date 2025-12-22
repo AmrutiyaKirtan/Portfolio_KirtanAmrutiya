@@ -1,6 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Research Lab Portfolio
 
-## Getting Started
+A high-performance, interactive portfolio showcasing experiments in **Edge AI**, **3D Visualization**, and **Distributed Systems**. This project serves as a digital garden for my research in efficient vision transformers (FaViT), client-side inference, and scalable web graphics.
+
+![Portfolio Preview](./public/profile-v5.jpg)
+
+## 🧪 Experiments & Modules
+
+### 01. Edge Inference Lab
+A fully client-side inference engine powered by **ONNX Runtime Web**.
+- **Real-time Performance**: Benchmarking small-scale models (like MobileNet) directly in the browser.
+- **Privacy-First**: No data leaves the user's device.
+
+### 02. Interactive Training Pipeline
+A visual simulation of a distributed ML training workflow using **React Flow**.
+- **Visual Nodes**: Represents data augmentation, TPU cluster allocation, and model export steps.
+- **Interactive**: Inspect configuration snippets for each stage of the pipeline.
+
+### 03. Interactive 3D Knowledge Graph
+A force-directed 3D graph visualizing the connection between skills, research domains, and project concepts.
+- **Tech**: Built with `react-force-graph-3d` and Three.js.
+- **Data**: Visualizing relationships between FaViT, ProbSparse Attention, and core ML/Web concepts.
+
+### 04. Engineering Log
+A terminal-styled changelog tracking the journey of optimizing models and refactoring code.
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Visualization**: Three.js, React Force Graph, React Flow
+- **AI/ML**: ONNX Runtime Web
+- **Language**: TypeScript
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -8,29 +40,10 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
