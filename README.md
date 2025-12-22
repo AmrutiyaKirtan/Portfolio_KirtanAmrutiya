@@ -2,8 +2,6 @@
 
 A high-performance, interactive portfolio showcasing experiments in **Edge AI**, **3D Visualization**, and **Distributed Systems**. This project serves as a digital garden for my research in efficient vision transformers (FaViT), client-side inference, and scalable web graphics.
 
-![Portfolio Preview](./public/profile-v5.jpg)
-
 ## 🧪 Experiments & Modules
 
 ### 01. Edge Inference Lab
