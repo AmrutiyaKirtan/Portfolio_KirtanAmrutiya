@@ -42,7 +42,7 @@ export default function Home() {
             LinkedIn
           </a>
 
-          <a href="#" className="px-4 py-2 rounded-full bg-blue-600/10 text-blue-400 hover:bg-blue-600/20 transition-colors text-sm font-medium border border-blue-600/20">
+          <a href="/Kirtan_Amrutiya_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-full bg-blue-600/10 text-blue-400 hover:bg-blue-600/20 transition-colors text-sm font-medium border border-blue-600/20">
             Download CV
           </a>
         </div>
